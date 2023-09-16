@@ -18,4 +18,4 @@ def hello_world():
         <img src="https://media.discordapp.net/attachments/305058665361309696/1152639559818035230/image.png?width=253&height=236">
     </body>
     '''
-    return html
+    return app.make_response(html)
